@@ -5,9 +5,7 @@
     --light: #F5F5F5;
     --dark: #14141F;
 }
-body{
-    background-color: #f5f5ff;
-}
+
 .fw-medium {
     font-weight: 600 !important;
 }
