@@ -101,7 +101,7 @@
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 80px;
+    max-height: 100px;
     transition: .5s;
 }
 
@@ -274,7 +274,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.booking2 {
+    background: linear-gradient(rgba(15, 23, 43, 0.727), rgba(15, 23, 43, 0.707)),url(https://designdesk.in/wp-content/uploads/2017/01/AECOM-Lobby.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*** Team ***/
 .team-item {
