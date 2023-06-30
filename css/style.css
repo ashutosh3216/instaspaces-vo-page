@@ -268,7 +268,7 @@
 
 /*** Booking ***/
 .booking {
-    margin: -31px;
+    margin: 24px;
     background: linear-gradient(rgba(15, 23, 43, 0.456), rgba(15, 23, 43, 0.395));
     background-position: center center;
     background-repeat: no-repeat;
@@ -342,6 +342,12 @@
     .testimonial-carousel::after {
         width: 300px;
     }
+}
+@media (max-width: 550px) {
+    .booking{
+        margin: -31px;
+    }
+
 }
 
 .testimonial-carousel .owl-item .testimonial-item,
