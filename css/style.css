@@ -268,7 +268,7 @@
 
 /*** Booking ***/
 .booking {
-    margin: 24px;
+    margin: -31px;
     background: linear-gradient(rgba(15, 23, 43, 0.456), rgba(15, 23, 43, 0.395));
     background-position: center center;
     background-repeat: no-repeat;
