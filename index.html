@@ -145,7 +145,7 @@
                     </div>
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Book A Virtual office</h1>
-                        <form>
+                        <form onsubmit="submitfun()">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
@@ -167,10 +167,10 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <select class="form-select bg-transparent" id="select1">
-                                            <option value="1">Destination 1</option>
-                                            <option value="2">Destination 2</option>
-                                            <option value="3">Destination 3</option>
+                                        <select class="form-select bg-transparent" id="plantype">
+                                            <option value="Mailing Address">Mailing Address</option>
+                                            <option value="vGST Registration">GST Registration</option>
+                                            <option value="3">Business Registration</option>
                                         </select>
                                         <label for="select1">Destination</label>
                                     </div>

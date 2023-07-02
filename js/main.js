@@ -10,8 +10,8 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -24,14 +24,14 @@
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
-    
-    
+
+
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
     const $dropdownMenu = $(".dropdown-menu");
     const showClass = "show";
-    
+
     $(window).on("load resize", function() {
         if (this.matchMedia("(min-width: 992px)").matches) {
             $dropdown.hover(
@@ -52,8 +52,8 @@
             $dropdown.off("mouseenter mouseleave");
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -89,6 +89,36 @@
             }
         }
     });
-    
+
 })(jQuery);
 
+
+function submitfun(){
+    var name=document.getElementById("name").value;
+    var email=document.getElementById("email").value;
+    var phone=document.getElementById("telephone").value;
+    var location=document.getElementById("location").value;
+    var plantype = document.getElementById("plantype").value;
+    var PageInput = document.getElementById("PageInput").value;
+
+    var data={
+        name:name,
+        email:email,
+        phone:phone,
+        location:location,
+        plantype:plantype,
+        PageInput:PageInput
+
+    }
+    console.log(data);
+    $.ajax({
+        url:"https://www.instaspaces.in/Contact",
+        type:"POST",
+        data:data,
+        success:function(data){
+            console.log(data);
+            alert("Message sent successfully");
+        }
+    })
+    return false;
+}
