@@ -504,3 +504,75 @@
     animation: gradient 5s ease infinite;
     background-position: right;
 }
+
+
+/*Silver Button CSS Start*/
+
+
+.Btn1 {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(to right, #c0c0c0, #e6e6e6, #c0c0c0, #e6e6e6, #c0c0c0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.8em;
+    color: rgb(121, 103, 3);
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition-duration: 3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+    background-size: 200% 200%;
+}
+
+.logoIcon path {
+    fill: rgb(121, 103, 3);
+}
+
+.Btn1:hover {
+    transform: scale(0.95);
+    transition-duration: 3s;
+    animation: gradient 5s ease infinite;
+    background-position: right;
+}
+/*Silver Button CSS END*/
+
+
+/* Bronze Button Start */
+.Btn2 {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(to right, #cd7f32, #a57164, #cd7f32, #a57164, #cd7f32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.8em;
+    color: rgb(121, 103, 3);
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition-duration: 3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+    background-size: 200% 200%;
+}
+
+.logoIcon2 path {
+    fill: rgb(121, 103, 3);
+}
+
+.Btn2:hover {
+    transform: scale(0.95);
+    transition-duration: 3s;
+    animation: gradient 5s ease infinite;
+    background-position: right;
+}
+/* Bronze Button End */
